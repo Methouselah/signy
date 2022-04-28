@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="css/style.min.css">
+<!-- Useful meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!--=============== FAVICON ===============-->
+<link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+<title>Контакты</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header"> 
+   <div class="header__container">
+      <a href="index.html" class="header__logo"><img src="img/logo.svg" alt=""></a>
+      <div class="header__menu menu">
+         <div class="menu__icon">
+            <span></span>
+         </div>
+         <nav class="menu__body" id="menu__body">
+            <ul class="menu__list" id="menu-list">
+               <li>
+                  <a href="#" class="menu__link menu__sub-title">0 800 750 643</a>
+                  <img class="menu__arrow" src="img/v.svg" alt="">                 
+                  <ul class="menu__sub-list">
+                     <li><a href="#" class="menu__sub-link">+380 44 338 86 43</a></li>
+                     <li><a href="#" class="menu__sub-link">+380 44 338 86 43</a></li>
+                  </ul> 
+               </li>
+               <li>
+                  <a href="about-us.html" class="menu__link menu__sub-title">ПРО НАС</a>
+                  <img class="menu__arrow" src="img/v.svg" alt="">                 
+                  <ul class="menu__sub-list">
+                     <li><a href="blog.html" class="menu__sub-link">блог</a></li>
+                     <li><a href="video.html" class="menu__sub-link">Видео</a></li>
+                     <li><a href="faq.html" class="menu__sub-link">Вопросы</a></li>
+                  </ul>
+               </li>
+               <li><a data-goto="#" href="contact.html" class="menu__link">КОНТАКТЫ</a></li>
+               <li><a data-goto="#" href="#" class="btn btn-line header__btn">ВХОД</a></li>
+               <li><a data-goto="#" href="#" class="btn header__btn">РЕГИСТРАЦИЯ</a></li>
+               <li>
+                  <a href="#" class="menu__link menu__sub-title">РУС</a>
+                  <img class="menu__arrow" src="img/v.svg" alt="">                 
+                  <ul class="menu__sub-list menu__sub-list--lang">
+                     <li><a href="#" class="menu__sub-link">УКР</a></li>
+ 
+                  </ul>
+               </li>  
+            </ul>
+         </nav>
+      </div>
+   </div>
+</header>
+
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <div class="container">
+            <div class="path">
+                <a href="" class="path__link">Signy</a>
+                <span>/</span>
+                <a href="" class="path__link">Контакты</a>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="contact__container container">
+                <div class="contact__title title">Наши контакты</div>
+
+                <div class="contact__map">
+                    <div class="contact__map-body">
+                        <div class="contact__description">Мы всегда рады ответить на ваши вопросы и развивать
+                            эффективное сотрудничество по всем вопросам, связанным с электронным документооборотом.
+                        </div>
+                        <div class="contact__number">
+                            <div class="contact__icon">
+                                <img src="img/contact/tel.svg" alt="">
+                            </div>
+                            <div class="contact__number-body">
+                                <a href="tel:0 800 750 643">0 800 750 643</a>
+                                <a href="tel:+3 044 334 56 43">+3 044 334 56 43</a>
+                                <a href="tel:+3 044 334 56 43">+3 044 334 56 43</a>
+                            </div>
+                        </div>
+                        <div class="contact__mail">
+                            <div class="contact__icon">
+                                <img src="img/contact/mail.svg" alt="">
+                            </div>
+                            <div class="contact__mail-body">
+                                <a href="mailto:infosmartsign@smarttender.biz">infosmartsign@smarttender.biz</a>
+                            </div>
+                        </div>
+                        <div class="contact__address">
+
+                            <div class="contact__icon">
+                                <img src="img/contact/adress.svg" alt="">
+                            </div>
+                            <div class="contact__address-body">
+                                <p>пр-т Бажана, 14 A Киев, 02072</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__map-img">
+                        <img src="img/contact/map.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="contact__title title">...или напишите нам:</div>
+                <form action="#" class="contact__form" method="post" autocomplete="on">
+                    <label for="username" class="contact__label">Имя*:</label>
+                    <input type="text" id="username" placeholder="Имя" class="contact__input">
+                    <label for="email" class="contact__label">Электронная почта*:</label>
+                    <input type="email" id="email" placeholder="ivan@mail.com" class="contact__input">
+                    <label for="tel" class="contact__label">Телефон*:</label>
+                    <input type="tel" id="tel" placeholder="+38 000 000 00 00" class="contact__input">
+                    <label for="comment" class="contact__label">Сообщение:</label>
+                    <textarea name="comment" class="contact__textarea" placeholder="введите тут"></textarea>
+                    <input type="button" value="Отправить" class="contact__btn js-open-modal" data-modal="1">
+                </form>
+
+                <!-- Модальное окон -->
+                <div class="modal" data-modal="1">
+                    <!--  иконка закрытия окна  -->
+                    <img class="modal__cross js-modal-close" src="img/popup/close.svg"></img>
+                    <div class="modal__body-2">
+                        <h3 class="modal__title subtitle">Спасибо</h3>
+                        <div class="modal__descripion">Твое сообщение отправленно! Наши менеджеры свяжутся с тобой в ближайшее время</div>
+                        <div class="modal__img">
+                            <img src="img/popup/icon.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Подложка под модальным окном -->
+                <div class="overlay js-overlay-modal"></div>
+            </div>
+        </div>
+
+
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__grid">
+            
+            <div class="footer__logo"><a href="#"><img src="img/footer-logo.svg" alt="#"></a></div>
+            <div class="footer__item footer__section">
+                <div class="footer__section-1">
+                    <div>
+                        <a href="#" class="footer__link">Про нас</a>
+                        <a href="#" class="footer__link">Цены</a>
+                    </div>
+                    <div>
+                        <a href="#" class="footer__link">Вход</a>
+                        <a href="#" class="footer__link">Регистрация</a>
+                    </div>
+                </div>
+                <div class="footer__section-2">
+                    <div>
+                        <a href="#" class="footer__link">Блог</a>
+                        <a href="#" class="footer__link">Контакты</a>
+                    </div>
+                </div>
+                 
+            </div>
+
+            <div class="footer__item footer__email">
+                <p>infosmartsign@smarttender.biz</p>
+                <p>Facebook</p>
+            </div>
+
+            <div class="footer__item footer__contact">
+                <p class="footer__grey">пр-т Миколи Бажана, 14 А<br>Київ, 02072</p>
+                <p class="footer__grey">0 800 750643</p>
+                <p class="footer__grey">+380 44 334 56 43</p>
+                <p class="footer__grey">+380 44 334 56 43</p>
+            </div>
+            <div class="footer__footer footer__grey">© 2020 Signy</div>
+            <div class="footer__footer footer__grey">Договір оферти</div>
+            <div class="footer__footer footer__grey">Безпека сервісу</div>
+        </div>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <img src="img/arrow.svg" alt="">
+         </a>
+    </div>
+</footer>
+
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== APP JS ===============-->
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
